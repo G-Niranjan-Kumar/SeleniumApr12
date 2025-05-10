@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>SeleniumApr04</groupId>
+  <artifactId>SeleniumApr04</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.31.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.io -->
+	<dependency>
+	    <groupId>org.apache.directory.studio</groupId>
+	    <artifactId>org.apache.commons.io</artifactId>
+	    <version>2.4</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-simple</artifactId>
+	    <version>2.0.16</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14 -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-jdk14</artifactId>
+	    <version>2.0.16</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-nop -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-nop</artifactId>
+	    <version>2.0.16</version>
+	    <scope>test</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-reload4j -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-reload4j</artifactId>
+	    <version>2.0.16</version>
+	    <scope>compile</scope>
+	</dependency>
+  </dependencies>
+  
+   
+</project>

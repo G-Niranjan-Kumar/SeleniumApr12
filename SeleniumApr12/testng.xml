@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+<!--  <groups>
+  	<run>
+  		<include name = "High Pri"/>
+  		<exclude name = "Low Pri"/>
+  	</run>
+  </groups>-->
+    <classes>
+<!--      <class name="TestNG.Training.GroupOfMethods"/>
+      <class name="TestNG.Training.MultipleTestCases"/>-->
+      <!-- Use of BeforeClass and AfterClass annotations as part of reusability -->
+      <class name="TestNG.Training.BeforeAfterTestAnnotation"/>
+      <class name="TestNG.Training.BeforeAfterTestAnnotation2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
