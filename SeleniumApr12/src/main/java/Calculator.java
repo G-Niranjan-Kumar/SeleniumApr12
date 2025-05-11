@@ -7,6 +7,8 @@ public class Calculator {
 		maths.add(4,5);
 		maths.subtract(4,5);
 		int mul = maths.multiply(4, 5);
+		
+		
 		System.out.println(mul);
 		
 		int y = Calculator(5);
