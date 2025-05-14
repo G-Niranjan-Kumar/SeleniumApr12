@@ -12,8 +12,9 @@
 <!--      <class name="TestNG.Training.GroupOfMethods"/>
       <class name="TestNG.Training.MultipleTestCases"/>-->
       <!-- Use of BeforeClass and AfterClass annotations as part of reusability -->
-      <class name="TestNG.Training.BeforeAfterTestAnnotation"/>
-      <class name="TestNG.Training.BeforeAfterTestAnnotation2"/>
+<!--      <class name="TestNG.Training.BeforeAfterTestAnnotation"/>
+      <class name="TestNG.Training.BeforeAfterTestAnnotation2"/>-->
+      <class name="saucedemopages.testcases.PurchaseProduct"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
